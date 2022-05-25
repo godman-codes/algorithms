@@ -67,10 +67,10 @@ def verify_sorted(list):
 
     return list[0] < list[1] and verify_sorted(list[1:])
 
-alist = [23,17,62,77,93,31,54]
-l = merge_sort(alist)
-print(verify_sorted(alist))
-print(verify_sorted(l))
+# alist = [23,17,62,77,93,31,54]
+# l = merge_sort(alist)
+# print(verify_sorted(alist))
+# print(verify_sorted(l))
 
 
 
